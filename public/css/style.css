@@ -1,0 +1,45 @@
+.headers {
+
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-image: url("../images/candy.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#title {
+	text-align: center;
+	font-size: 4.5em;
+	margin-bottom: 0;
+}
+
+#navbar {
+	list-style: none;
+	text-align: right;
+}
+
+#navbar li {
+	display: inline;
+	padding: 0px 50px;
+}
+
+#navbar li a {
+	text-decoration: none;
+}
+
+#creators {
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#main_text {
+	width: 850px;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 5px 25px;
+	background-color: rgba(255,255,255,0.6);
+}
+
