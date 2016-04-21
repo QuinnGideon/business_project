@@ -43,3 +43,17 @@ body {
 	background-color: rgba(255,255,255,0.6);
 }
 
+#candypic {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px 0px;
+	background-color: RGBA(173, 173, 173, 0.6);
+}
+
+#candypic img {
+	width: 30%;
+	margin-left: 23px;
+}
+
+
+
