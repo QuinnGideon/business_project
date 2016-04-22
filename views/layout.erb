@@ -8,14 +8,18 @@
 	<title>hi</title>
 </head>
 <body>
-	<% navbar = ["Home", "Products", "Locations", "Contact"] %>
-				<ul id="navbar">
-					<% navbar.each do |i| %>
-						<li>
-							<a href="/<%= i %>"><%= i %></a> 
-						</li>
-					<% end %>
-				</ul>
 	<%= yield %>
+	<div id="navbar">
+		<% navlist = ["Home", "Products", "Locations", "Contact"] %>
+					<ul id="navlist">
+						<% navlist.each do |i| %>
+							<li>
+								<a href="/<%= i %>"><%= i %></a> 
+							</li>
+
+
+						<% end %>
+					</ul>
+	</div>
 </body>
 </html>
