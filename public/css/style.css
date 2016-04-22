@@ -10,6 +10,7 @@ body {
 	background-size: cover;
 }
 
+
 #title {
 	text-align: center;
 	font-size: 4.5em;
@@ -53,16 +54,18 @@ body {
 #main_text {
 	width: 850px;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 20px;
 	padding: 5px 25px;
-	background-color: rgba(255,255,255,0.6);
+	background-color: RGBA(253, 170, 222, 0.5);
+	border-radius: 7px;
+	border: 2px solid black;
 }
 
 #candypic {
 	width: 80%;
 	margin: 0 auto;
 	padding: 10px 0px;
-	background-color: RGBA(173, 173, 173, 0.6);
+	/*background-color: RGBA(173, 173, 173, 0.6);*/
 }
 
 #candypic img {
@@ -83,6 +86,11 @@ body {
 
 .shade img{
 	margin-left: 30%;
+	margin-top: 20vh;
+	max-height: 60vh;
+	border-radius: 5px;
+	border: 3px solid white;
+
 }
 
 .candyimage {
@@ -98,8 +106,12 @@ body {
 	margin-left: 320px;
 }
 
+#picBorder {
+	border: 2px solid black;
+}
+
 #outerContact {
-	background-color: RGBA(245, 246, 238, 0.7);
+	/*background-color: RGBA(253, 170, 222, 0.7);*/
 	width: 1000px;
 	height: 600px;
 	margin: 0 auto;
@@ -108,16 +120,35 @@ body {
 }
 
 #innerContact {
-	background-color: RGBA(245, 246, 238, 1);
-	width: 900px;
-	height: 500px;
+	background-color: RGBA(253, 170, 222, 0.5);
+	width: 800px;
+	height: 410px;
 	margin: 0 auto;
 	padding: 15px;
+	border-radius: 5px;
+	border: 2px solid black;
 }
 
 #button{
-	
+	background-color: RGBA(237, 227, 139, 0.7);
+/*	width: 2em;*/
+border-radius: 10px;
+border: 2px solid;
+border-color: RGBA(152, 39, 141, 1.00);
+padding: 10px 30px;
 }
+
+.textarea {
+background-color: RGBA(237, 227, 139, 0.2);
+border-radius: 9px;	
+}
+
+.roundImage {
+	border-radius: 5px;
+	border: 3px solid black;
+	margin-bottom: 15px;
+}
+
 
 
 
